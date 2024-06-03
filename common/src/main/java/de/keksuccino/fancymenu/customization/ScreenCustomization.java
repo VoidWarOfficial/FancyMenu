@@ -339,7 +339,6 @@ public class ScreenCustomization {
 		addScreenBlacklistRule((screen) -> screen.startsWith("eu.midnightdust."));
 		addScreenBlacklistRule((screen) -> screen.startsWith("net.cobrasrock.skinswapper."));
 		addScreenBlacklistRule((screen) -> screen.equals(VideoSettingsScreen.class.getName()) && Compat.isOptiFineLoaded());
-		addScreenBlacklistRule((screen) -> screen.startsWith("de.keksuccino.fancymenu.") && !screen.equals(CustomGuiBaseScreen.class.getName()));
 
 	}
 
